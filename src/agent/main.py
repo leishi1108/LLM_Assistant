@@ -2,8 +2,8 @@
 主程序入口
 """
 
-from agent.core import GraphBuilder
-from agent.utils import log_debug_info
+from src.agent.core import GraphBuilder
+from src.agent.utils import log_debug_info, setup_logging
 
 
 def create_graph():
